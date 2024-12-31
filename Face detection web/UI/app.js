@@ -28,25 +28,24 @@ function init() {
             Most of the time if there is one person in the image you will get only one element in below array
             data = [
                 {
-                    class: "viral_kohli",
-                    class_probability: [1.05, 12.67, 22.00, 4.5, 91.56],
+                    class: "kane_williamson",
+                    class_probability: [91.05, 12.67, 22.00, 4.5],
                     class_dictionary: {
-                       "lionel_messi": 0, 
-                       "maria_sharapova": 1,
-                       "saina_nehwal": 2,
-                       "usain_bolt": 3,
-                       "virat_kohli": 4
+                       "kane_williamson": 0, 
+                       "kobe_bryant": 1,
+                       "maria_sharapova": 2,
+                       "ronaldo": 3,
+                     
                     }
                 },
                 {
-                    class: "saina_nehwal",
-                    class_probability: [7.02, 23.7, 52.00, 6.1, 1.62],
+                    class: "maria_sharapova",
+                    class_probability: [7.02, 23.7, 82.00, 5.1],
                     class_dictionary: {
-                       "lionel_messi": 0, 
-                       "maria_sharapova": 1,
-                       "saina_nehwal": 2,
-                       "usain_bolt": 3,
-                       "virat_kohli": 4
+                       "kane_williamson": 0, 
+                       "kobe_bryant": 1,
+                       "maria_sharapova": 2,
+                       "ronaldo": 3,
                     }
                 }
             ]
@@ -59,8 +58,8 @@ function init() {
                 return;
             }
             
-
-            let players = ["lionel_messi", "maria_sharapova", "saina_nehwal","usain_bolt","virat_kohli"];
+          
+            let players = ["kane_williamson", "kobe_bryant", "maria_sharapova","ronaldo"];
             
             let match = null;
             let bestScore = -1;
